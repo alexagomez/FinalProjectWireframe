@@ -1,0 +1,150 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One|Lobster|Anton|Shadows+Into+Light|Open+Sans|Roboto|Orbitron|Oswald|Raleway|Montserrat|Roboto+Slab|Indie+Flower|Fjalla+One|Bree+Serif|Pacifico|Abril+Fatface);
+ul{
+    list-style-type: none;
+    text-align: center;
+    font-size: 35px;
+    background-color: black;
+    padding: 5px;
+    box-shadow: 5px 10px #888888;
+}
+
+body{
+  background: linear-gradient(132deg, #ec5218, #1665c1);
+  background-size: 400% 400%;
+  animation: BackgroundGradient 30s ease infinite;
+}
+
+h1 {
+  font-family: raleway;
+  color: #fff;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 65px;
+  padding: 5px;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+h2 {
+  font-family: raleway;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+  padding: 5px;
+  font-weight: 200;
+}
+
+.header3{
+    text-align:center;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+@keyframes BackgroundGradient {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
+
+li{
+    display: inline;
+    padding: 4%;
+    font-family: raleway;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo{
+    text-align:center;
+}
+
+
+.header1{
+    text-align:center;
+   
+}
+
+.column {
+    display: inline-block;
+    width: 40%;
+    padding: 40px 0;
+    margin-right: 3%;
+    text-align: center;
+
+}
+
+
+.mcol{
+    width:27%;
+    display: inline-block;
+    padding: 15px 0;
+    margin-right: 3%;
+    text-align: center;
+}
+
+.columns {
+    padding-bottom: 0;
+    padding-top: 0;
+    text-align: center;
+}
+
+.mcols{
+    padding: 5%;
+    padding-top: 0;
+    text-align: center;
+    font-family: raleway;
+    color: #fff;
+}
+
+.column:nth-child(2n){
+    margin-right: 0px;
+}
+
+.mcol:nth-child(3n){
+    margin-right: 0px;
+}
+
+
+
+p{
+    text-align: left;
+}
+
+.orange{
+
+    margin:0;
+}
+
+h3{
+    text-align: center;
+    padding: 7%
+
+}
+
+h4{
+    text-align: left;
+
+}
+
+img:hover {
+    webkit-filter: blur(4px);
+    filter: blur(4px);
+}
+
+@media only screen and (max-width: 1000px){
+    .column{
+        width:100%;
+    }
+    .mcol{
+        width:45%;
+    }
+
+}
+
+
+
+
+
